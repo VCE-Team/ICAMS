@@ -832,10 +832,12 @@ h2 {
 }
 
 h3 {
-    font-size: 40px;
-    line-height: 39px;
+    font-size: 30px;
+    line-height: 30px;
     font-weight: bold;
     color: #383581;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 h3abv {
@@ -895,7 +897,7 @@ p {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 40px;
     line-height: 39px;
-    color: #ff0000;
+    color: #383581;
     font-weight: 550;
     text-align: center;
     display: flex;
