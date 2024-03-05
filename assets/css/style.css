@@ -892,6 +892,29 @@ p {
     text-justify: inter-word;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 78%;
+}
+
+.box {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #002046;
+    margin: 10px;
+}
+
+.box input[type="text"] {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #002046;
+    color: yellow;
+}
+
 .pctd1{
     display: flex;
     font-family:Arial, Helvetica, sans-serif;
