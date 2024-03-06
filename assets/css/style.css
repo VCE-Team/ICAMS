@@ -813,8 +813,9 @@ sup {
     /* background-image: linear-gradient( 270deg, var(--e-global-color-stars) 0%, var(--e-global-color-dark-icons-background) 40%); */
     /* background-image: url("html.designingmedia.com\redlight\assets\images\download.jpeg"); */
     /* background: linear-gradient(to bottom, #ff6b6b, #87f1ff, #4caf50); */
-    background-image: image("./assets/images/download.jpeg");
+    /* background-image: image("./assets/images/download.jpeg"); */
     /* background-image: linear-gradient( 90deg, var(--e-global-color-stars) 0%, var(--e-global-color-dark-icons-background) 70%); */
+    background-image: linear-gradient(45deg, #f8f9fa, #fff);
 
 }
 
