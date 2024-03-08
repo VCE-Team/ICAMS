@@ -188,7 +188,7 @@ a5{
   
   /* 48em = 768px */
   
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width:1000px) {
     .nav-menu5 {
       position: fixed;
       left: -100%;
