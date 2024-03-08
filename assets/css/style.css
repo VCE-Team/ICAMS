@@ -773,6 +773,7 @@ sup {
 
 .logo-container {
     text-align: center;
+    background-color: white;
   }
 
 .logo-container img {
@@ -1026,6 +1027,16 @@ b{
     size: 30px;
 }
 
+.white-space{
+    background-color: white;
+}
+
+.left-and-right-half {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
 .home-header-section {
     background-position: center;
     background-repeat: no-repeat;
@@ -1034,6 +1045,7 @@ b{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: linear-gradient(109deg, var(--e-global-color-dark-marron) 17%, var(--e-global-color-dark-icons-background) 46%);
     /* background-image: linear-gradient( 109deg, var(--e-global-color-dark-marron) 17%, var(--e-global-color-dark-icons-background) 46%); */
 }
 
