@@ -74,6 +74,7 @@
             </div>
         </nav>
     </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         const hamburger = document.querySelector(".hamburger5");
         const navMenu = document.querySelector(".nav-menu5");
@@ -93,6 +94,23 @@
             hamburger.classList.remove("active");
             navMenu.classList.remove("active");
         }
+
+        $(document).ready(function() {
+            // Show the popup when the page loads
+            $('#popup').fadeIn();
+
+            // Close the popup when the close button is clicked
+            $('.close').click(function() {
+                $('#popup').fadeOut();
+            });
+
+            // Close the popup when clicking outside of it
+            $(window).click(function(event) {
+                if (event.target == $('#popup')[0]) {
+                    $('#popup').fadeOut();
+                }
+            });
+        });
     </script>
     
 
@@ -126,6 +144,13 @@
             </div>
         </div>
     </div> -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h3>This Website is under construction</h3>
+            <p>We apologize for the inconvenience.</p>
+        </div>
+    </div>
     <div class="home-header-section">
         <header class="header">
             <div class="main-header">
@@ -136,7 +161,6 @@
         <!-- BANNER-SECTION -->
         <!-- Joel makes banner -->
         <div class="image-container">
-            
             <img class="image-class" src="./sources/temporary.png" alt="Your Image">
         </img>
         <br><br>
