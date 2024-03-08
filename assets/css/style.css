@@ -1033,11 +1033,30 @@ b{
 
 .left-and-right-half {
     display: flex;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allow items to wrap to a new line */
+    justify-content: space-between;
     align-items: baseline;
+    max-width: 80%;
+    margin: 0 auto;
 }
+
+.left-half, .right-half {
+    width: 45%; /* Set initial width for larger screens */
+}
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+    .left-and-right-half {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+    
+    .left-half, .right-half {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 2rem; /* Add some spacing between the sections */
+    }
+}
+
 
 .home-header-section {
     background-position: center;
