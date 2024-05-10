@@ -731,6 +731,23 @@ h2.bahamasf{
     }
 }
 
+.publication-partners {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping onto multiple lines */
+    overflow-x: auto; /* Add horizontal scroll if necessary */
+    justify-content: center; /* Center the flex items horizontally */
+  }
+  
+  .publication-partners img {
+    flex: 0 0 auto; /* Reset flex property to default values */
+    max-width: 200px; /* Set a fixed width for the images */
+    max-height: 200px; /* Maintain aspect ratio */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 5px; /* Add some padding for better appearance */
+    margin: 5px;
+  }
+  
+
 .blinking-new {
     position:inherit;
     margin-left: 10px;
