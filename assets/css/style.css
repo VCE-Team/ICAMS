@@ -1210,6 +1210,15 @@ b{
     background-color: yellow;
 }
 
+.strike{
+    text-decoration: line-through;
+}
+
+.bold-text-strike{
+    color: black;
+    text-decoration: line-through;
+}
+
 @media only screen and (max-width: 600px) {
     /* Adjust styles for smaller screens */
     .important-dates {
