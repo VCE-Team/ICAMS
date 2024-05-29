@@ -1226,6 +1226,10 @@ b{
     }
 }
 
+.important-dates .b{
+    text-decoration: line-through;
+}
+
 /* aboutus page */
 
 .about-banner-text {
